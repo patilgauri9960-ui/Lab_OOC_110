@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
+void input();
 class student
 {
     private:
@@ -9,7 +9,7 @@ class student
         int rollno;
         float marks;
     
-    public:
+   // public:
         void input()
         {
             cout<<"Enter your name:-"<<endl;
@@ -20,9 +20,10 @@ class student
             cin>>marks;
 
         }
-
+        public:
         void display()
         {
+            input();
             cout<<"--Student Details--"<<endl;
 
             cout<<"Name:-"<<name<<endl;
@@ -32,9 +33,17 @@ class student
 };
 int main()
 {
+   
     student s;
-    s.input();
+    input();
+    //s.rollno=100;
     s.display();
     return 0;
+
+   
 }
+void input()
+    {
+        cout<<"Calling the method outside the class..."
+    }
 
