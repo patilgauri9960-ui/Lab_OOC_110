@@ -44,6 +44,6 @@ int main()
 }
 void input()
     {
-        cout<<"Calling the method outside the class..."
+        cout<<"Calling the method outside the class...\n";
     }
 
