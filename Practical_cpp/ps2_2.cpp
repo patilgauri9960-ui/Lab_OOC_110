@@ -41,9 +41,7 @@ public:
 int main()
 {
     Product p;
-
     p.accept();
     p.display();
-
     return 0;
 }
