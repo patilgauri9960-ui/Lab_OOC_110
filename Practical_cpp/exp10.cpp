@@ -1,6 +1,6 @@
 /* File Handling with C++ using ifstream & ofstream class object*/
 /* To write the Content in File*/
-/* Then to read the content of file*/
+/* Then to read the content of        file*/
 #include <iostream>
 /* fstream header file for ifstream, ofstream,
  fstream classes */
